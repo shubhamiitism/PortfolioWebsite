@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Yadav - Web Developer, Competetive Programmer, Coding Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9982f9efa3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class = "logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Shubham Yadav</span></h1> <br>
+                <ul>
+                    <li>I am a Sophomore at Indian Institute of Technology (ISM), Dhanbad.</li>
+                    <li>I do Competetive Programming and Web Development.</li>
+                    <li>I have a keen interest in Stock-Markets and Finance.</li>
+                    <li> I also play Football in my free time.</li>
+                </ul>
+            </div>
+        </div>  
+    </div>
+
+    <!-- ..........about.......... -->  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hola Everyone! Below are some things about me,  cheers!!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Competetive Programming</span> <br> Solved 1000+ problems across all platforms, Codeforces, Codechef, Leetcode and InterviewBit.</li>
+                            <li><span>Web Development</span> <br>Successfully Created three Web Development projects using Technologies HTML, CSS, Javascript, while using tech-stacks like :- <br> Node.js, SocketIO, React.js, CSS Media-Queries, and Audio API's.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - current</span><br> B-tech from Indian Institute of Technology (ISM) Dhanbad</li>
+                            <li><span>2020</span><br>Higher Secondary Education from Kendriya Vidyalaya, Visakhapatnam</li>
+                            <li><span>2018</span> <br>Senior Secondary Education from Kendriya Vidyalaya, Visakhapatnam</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                           <li><span>LETS-CHAT -Realtime Chat App</span><br> <br> A web application which allows multiple user interaction
+                            through text messages. Audio API is also used for
+                            notification purpose. <br><br>Tools Used : <br> HTML, CSS , JAVASCRIPT, NodeJS, SocketIO <br><br>
+                            Github Repository : - <br>
+                            https://github.com/shubhamiitism/ChatWebsite <br> <br>
+                             </li>
+
+                             <li><span>MUSIC_PLAYER</span><br> <br>A web application to play audio from a list of available ones. A
+                                seekbar with different functionalities is provided along with a
+                                play/pause button with each audio. Also a functionality of
+                                clicking Icons and playing songs. Full UI/UX Experience <br><br>Tools Used : <br>HTML-AudioElement interface, CSS, NODE-JS,
+                                Font Awesome icons library, Flexbox layout module. <br> <br>
+                                Github Repository : <br>https://github.com/shubhamiitism/Music-Player</li> <br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ......services.......... -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Learn how to create fully responsive Website's using latest Technologies have lot of fun in that process.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Get started with CP</h2>
+                    <p>Learn how to do Competetive Programming and learning Data Structures and Algorithms and solving variety of problems using your knowledge.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+   <!--  ...portfolio........ -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Chat Web-App</h3>
+                    <p>The app lets you group chat with your friends.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music Website</h3>
+                    <p>This is a wonderful music player with mesmerising UI/UX.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+            </div> 
+            <div class="work">
+                <img src="images/work-3.png">
+                 <div class="layer">
+                    <h3>My Portfolio Website</h3>
+                    <p>The website you are currently browsing..</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+    
+   <!-- .......contact...... -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i> shubhamyadav3515@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-8688155001</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/mycv.pdf" download class="btn btn2">Resume/CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shubham Yadav </p>
+    </div>
+   </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+             sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzJ04dXhTZdH3m9cK7tPLlmH3JX85pFC-XgVVQ3XYuF0QtbxwVqAL6TMHOrMf3n8sScNw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+         form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!!!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+  })
+    </script>
+</body>
+</html>
